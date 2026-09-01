@@ -23,6 +23,8 @@ public class Principal {
         
         double[] notas = {7.5, 8.0, 6.5};
         System.out.println("\nMedia: " + calc.media(notas));
+        
+        System.out.println("\n" + calc.saudacao("Seu Nome"));
     }
     
 }
