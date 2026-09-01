@@ -17,6 +17,9 @@ public class Principal {
         System.out.println("Aluno: Seu Nome Completo");
         System.out.println("Curso: Programacao Java");
         System.out.println("Atividade de Git e GitHub");
+        
+        Calculadora calc = new Calculadora();
+        System.out.println("Soma: " + calc.somar(10, 5));
     }
     
 }
