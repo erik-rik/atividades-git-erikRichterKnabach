@@ -19,7 +19,10 @@ public class Principal {
         System.out.println("Atividade de Git e GitHub");
         
         Calculadora calc = new Calculadora();
-        System.out.println("Soma: " + calc.somar(10, 5));
+        System.out.println("\nSoma: " + calc.somar(10, 5));
+        
+        double[] notas = {7.5, 8.0, 6.5};
+        System.out.println("\nMedia: " + calc.media(notas));
     }
     
 }
