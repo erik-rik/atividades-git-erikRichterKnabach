@@ -24,4 +24,8 @@ public class Calculadora {
         }
         return soma / valores.length;
     }
+    
+    public String saudacao(String nome) {
+        return "Ola, " + nome + "! Bem-vindo ao sistema.";
+    }
 }
